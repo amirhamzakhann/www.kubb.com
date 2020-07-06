@@ -1,0 +1,870 @@
+/* Web Designer: Md. Amir Hamza Shuvo Khan
+Theme Name: Kubb */
+
+/* Common Css Start Here */
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, ol {
+    list-style-type: none;
+}
+
+.clr {
+    clear: both;
+}
+
+.full-wrapper {
+    width: 100%;
+}
+
+.wrapper {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.mr {
+    margin-right: 0 !important;
+}
+
+/* Common Css End Here */
+
+/* Header Css Start Here */
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: all linear .3s;
+}
+
+.header-bg {
+    background: rgba(0,0,0,0.4);
+    animation: menu 2s;
+}
+
+@keyframes menu {
+    from{
+        top: -100px;
+    }
+    to{
+        top: 0px;
+    }
+}
+
+.logo {
+    width: 270px;
+    float: left;
+}
+
+.logo img {
+    padding-top: 34px;
+}
+
+.menu {
+    width: 900px;
+    float: left;
+    text-align: right;
+}
+
+.menu ul li {
+    display: inline-block;
+}
+
+.menu ul li a {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    color: #f5f5f5;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-left: 44px;
+    line-height: 90px;
+    transition: all linear .3s;
+}
+
+.menu ul li a:hover {
+    color: #28b8d8;
+}
+/* Header Css End Here */
+
+/* Banner Css Start Here */
+
+.banner {
+    background: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 330px;
+    padding-bottom: 250px;
+}
+
+.banner-text {
+    text-align: center;
+}
+
+.banner-text h3 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.banner-text h4 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.banner-text p {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 14px;
+}
+/* Banner Css End Here */
+
+/* Service Css Start Here */
+
+.service {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background: #f9f9f9;
+}
+
+.service-text {
+    text-align: center;
+}
+
+.service-text h3 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    color: #444444;
+    font-size: 30px;
+}
+
+.service-text p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #666666;
+    font-size: 14px;
+    padding-top: 20px;
+    padding-bottom: 70px;
+}
+
+.service-text h4 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    color: #444444;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+
+.service-col {
+    width: 368px;
+    border: 1px solid #e3e3e3;
+    padding: 15px;
+    margin-right: 30px;
+    box-sizing: border-box;
+    background: #ffffff;
+    float: left;
+}
+
+.service-col img {
+    width: 100%;
+}
+
+.service-col-text {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.service-col-text h3 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    color: #444444;
+    font-size: 17px;
+}
+
+.service-col-text h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #666666;
+    font-size: 14px;
+    line-height: 22px;
+    padding: 0 16px;
+}
+/* Service Css End Here */
+
+/* Counter-Up Css Start Here */
+
+.countup {
+    background: url(../images/counterup-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.overlly {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.counter-col {
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+    margin-right: 30px;
+    float: left;
+    background: rgba(0,0,0,0.1);
+    text-align: center;
+    position: relative;
+}
+
+.counter-col h3{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.counter-col h4{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: coral;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+}
+
+.counter-col p{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 13px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+}
+
+/* Counter-Up Css End Here */
+
+/* Instagram Css Start Here */
+
+.insta {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #2c2c2c;
+}
+
+.insta-text {
+    text-align: center;
+}
+
+.insta-text h3 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    color: #d5d5d5;
+    font-size: 18px;
+    text-transform: uppercase;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 40px;
+}
+
+.insta-text h3::before {
+    width: 100px;
+    height: 1px;
+    background: #535353;
+    content: '';
+    position: absolute;
+    left: -115px;
+    top: 10px;
+}
+
+.insta-text h3::after {
+    width: 100px;
+    height: 1px;
+    background: #535353;
+    content: '';
+    position: absolute;
+    right: -115px;
+    top: 10px;
+}
+
+.insta-col {
+    width: 25%;
+    float: left;
+}
+
+.insta-col img {
+    width: 100%;
+}
+
+.insta-btn {
+    text-align: center;
+}
+
+.insta-btn a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #a6a6a6;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 15px 20px;
+    border: 1px solid #797979;
+    display: inline-block;
+    margin-top: 50px;
+    transition: all linear .3s;
+}
+
+.insta-btn a:hover {
+    background: #fff;
+    color: #000000;
+}
+
+.insta-btn i {
+    margin-right: 7px;
+}
+/* Instagram Css End Here */
+
+/* CounterDown Css Start Here */
+
+.our-upcoming-event {
+    text-align: center;
+}
+
+.our-upcoming-event h3 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 50px;
+}
+
+.our-upcoming-event h3::before {
+    width: 100px;
+    height: 1px;
+    background: #fff;
+    content: '';
+    position: absolute;
+    left: -115px;
+    top: 10px;
+}
+
+.our-upcoming-event h3::after {
+    width: 100px;
+    height: 1px;
+    background: #fff;
+    content: '';
+    position: absolute;
+    right: -115px;
+    top: 10px;
+}
+
+.counterdown {
+    background: url(../images/counterdown-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.counterdown-overly {
+    background: rgba(0,0,0,0.6);
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.counterdown-col {
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+    background: rgba(185, 180, 255, 0.3);
+    text-align: center;
+    position: relative;
+    text-align: center;
+    float: left;
+    margin-right: 30px;
+}
+
+.counterdown-col h3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    color: coral;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+}
+
+.counterdown-col h4 {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    color: coral;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+/* CounterDown Css End Here */
+
+/* Journal Css Start Here */
+
+.journal {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background: #f9f9f9;
+}
+
+.journal-text {
+    text-align: center;
+}
+
+.journal-text h3 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    color: #444444;
+    font-size: 18px;
+    text-transform: uppercase;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 40px;
+}
+
+.journal-text h3::before {
+    width: 100px;
+    height: 1px;
+    background: #d9d9d9;
+    content: '';
+    position: absolute;
+    left: -115px;
+    top: 10px;
+}
+
+.journal-text h3::after {
+    width: 100px;
+    height: 1px;
+    background: #d9d9d9;
+    content: '';
+    position: absolute;
+    right: -115px;
+    top: 10px;
+}
+
+.journal-col {
+    width: 368px;
+    border: 1px solid #e3e3e3;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background: #ffffff;
+    margin-right: 30px;
+    float: left;
+}
+
+.journal-col img {
+    width: 100%;
+}
+
+.journal-head {
+    text-align: center;
+}
+
+.journal-head h3 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    color: #444444;
+    font-size: 16px;
+}
+
+.journal-head h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #999999;
+    font-size: 12px;
+    padding-top: 16px;
+    padding-bottom: 22px;
+}
+
+.journal-col p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #666666;
+    font-size: 14px;
+    line-height: 22px;
+    padding-left: 25px;
+    padding-right: 32px;
+    padding-top: 25px;
+}
+
+.journal-btn {
+    padding-left: 25px;
+    padding-right: 32px;
+    padding-top: 25px;
+}
+
+.journal-btn-left {
+    float: left;
+}
+
+.journal-btn-left a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #999999;
+    font-size: 11px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #28b8d8;
+}
+
+.journal-btn-right {
+    float: right;
+}
+
+.journal-btn-right h5 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #999999;
+    font-size: 11px;
+    line-height: 22px;
+}
+
+.journal-btn-right span {
+    margin-left: 4px;
+}
+/* Journal Css End Here */
+
+/* About Css Start Here */
+
+.about {
+    padding-bottom: 80px;
+    background: #f9f9f9;
+}
+
+.about-left {
+    width: 570px;
+    float: left;
+    margin-right: 30px;
+}
+
+.heading h3 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    color: #444444;
+    font-size: 18px;
+    text-transform: uppercase;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 30px;
+}
+
+.heading h3::after {
+    width: 100px;
+    height: 1px;
+    background: #d9d9d9;
+    content: '';
+    position: absolute;
+    right: -115px;
+    top: 10px;
+}
+
+.about-left-image {
+    width: 197px;
+    float: left;
+    margin-right: 30px;
+}
+
+.about-left-image img {
+    width: 100%;
+}
+
+.about-left-text {
+    width: 343px;
+    float: left;
+}
+
+.about-left-text h3 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    color: #666666;
+    font-size: 18px;
+    line-height: 28px;
+    padding-bottom: 20px;
+}
+
+.about-left-text h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #666666;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.about-right{
+    width: 570px;
+    float: left;
+}
+
+.about-right-image {
+    width: 40px;
+    float: left;
+    margin-right: 30px;
+}
+
+.about-right-image img {
+    width: 100%;
+}
+
+.about-right-text {
+    width: 460px;
+    float: left;
+}
+
+.about-right-text h3 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    color: #444444;
+    font-size: 17px;
+    padding-bottom: 16px;
+}
+
+.about-right-text h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #666666;
+    font-size: 14px;
+    line-height: 22px;
+    padding-bottom: 25px;
+}
+/* About Css End Here */
+
+/* Footer Css Start Here */
+
+.footer {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background: #373737;
+}
+
+.footer-col {
+    width: 25%;
+    float: left;
+}
+
+.footer-head h3 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    color: #f0f0f0;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding-bottom: 25px;
+}
+
+.footer-head h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #cacaca;
+    font-size: 14px;
+    line-height: 24px;
+    padding-bottom: 30px;
+    width: 252px;
+}
+
+.footer-icon {
+    width: 7%;
+    float: left;
+}
+
+.footer-icon i {
+    color: #cacaca;
+    line-height: 24px;
+}
+
+.footer-icon-text {
+    width: 93%;
+    float: left;
+}
+
+.footer-icon-text p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #cacaca;
+    font-size: 14px;
+    line-height: 24px;
+    width: 186px;
+}
+
+.footer-twitter-content h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #cacaca;
+    font-size: 14px;
+    line-height: 24px;
+    padding-bottom: 25px;
+    width: 206px;
+}
+
+.footer-twitter-content h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #cacaca;
+    font-size: 14px;
+    line-height: 24px;
+    width: 218px;
+}
+
+.footer-head-popular h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #cacaca;
+    font-size: 14px;
+    line-height: 24px;
+    padding-bottom: 10px;
+    width: 240px;
+}
+
+.footer-head-popular h5 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #929292;
+    font-size: 12px;
+    padding-bottom: 22px;
+}
+
+.popular-last h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #cacaca;
+    font-size: 14px;
+    line-height: 24px;
+    padding-bottom: 10px;
+    width: 232px;
+}
+
+.footer-about h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #cacaca;
+    font-size: 14px;
+    line-height: 24px;
+    padding-bottom: 20px;
+    width: 240px;
+}
+
+.footer-about p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #cacaca;
+    font-size: 14px;
+    line-height: 24px;
+    padding-bottom: 20px;
+    width: 250px;
+}
+/* Footer Css End Here */
+
+/* Footer-End Css Start Here */
+
+.footer-end {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: #333333;
+}
+
+.footer-end-title h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #cacaca;
+    font-size: 14px;
+}
+/* Footer-End Css End Here */
+
+/* typed Js Css Start Here */
+
+.typed_wrap h1 {
+	display: inline;
+}
+
+.typed::after {
+	content: '|';
+	display: inline;
+	-webkit-animation: blink 0.7s infinite;
+	-moz-animation: blink 0.7s infinite;
+	animation: blink 0.7s infinite;
+}
+
+.typed-cursor{
+    opacity: 0;
+     display: none;
+ }
+/* typed Js Css End Here */
+
+/* Back To Top Button Css Start Here */
+
+.btt {
+    position: fixed;
+    right: 60px;
+    bottom: 60px;
+    text-align: center;
+    z-index: 99;
+}
+
+.btt i {
+    width: 40px;
+    height: 40px;
+    background: darksalmon;
+    position: absolute;
+    line-height: 35px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all linear .3s;
+}
+
+.btt i:hover {
+    background: coral;
+}
+/* Back To Top Button Css End Here */
+
+/* Preloader Css Start Here */
+
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #000000;
+    height: 100%;
+    z-index: 999;
+}
+
+#loader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+/* Preloader Css End Here */
